@@ -1,0 +1,29 @@
+.card-group {
+  display: flex;
+  width: 180px; }
+
+.card {
+  border: 1px solid black; }
+
+.card-img-top {
+  border-bottom: 1px solid black; }
+
+.carousel-item {
+  height: 100%; }
+
+.img-fluid {
+  width: 100%;
+  height: 700px !important; }
+
+#modelZ {
+  color: #00e6e6;
+  text-shadow: 2px 2px 2px black; }
+
+#prosthetics {
+  color: #d9d9d9;
+  text-shadow: 2px 2px 2px black; }
+
+#surgical {
+  text-shadow: 2px 2px 2px black; }
+
+/*# sourceMappingURL=tech-gallery.css.map */
