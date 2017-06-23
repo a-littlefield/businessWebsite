@@ -1,19 +1,23 @@
 #navbar{
-	background: lightgrey;
+	background: rgb(179, 230, 255);
+	opacity: 0.4;
+}
+#navbar:hover{
+	opacity: 1;
 }
 .form-inline{
 	justify-content: flex-end;
 }
 .form-inline input{
 	margin: 0 5px;
-	background: skyblue;
+	background: rgb(128, 255, 255);
 	border-radius: 15px;
 }
 
 #nav-submit{
 	border-radius: 15px;
 	padding: 1px 2px;
-	background: skyblue;
+	background: rgb(128, 255, 255);
 }
 
 #logDiv{
@@ -23,7 +27,7 @@
 
 #logout{
 	border-radius: 15px;
-	background: skyblue;
+	background: rgb(128, 255, 255);
 	padding: 1px 5px;
 }
 
@@ -40,9 +44,15 @@
 	margin: 0 7px;
 }
 
+.pages:hover{
+	text-decoration: none;
+	color: rgb(0, 51, 204);
+}
 
 #container{
 	display: flex;
 	justify-content: space-between
 }
-
+ #contact-us{
+ 	margin-right: 7px;
+ }
