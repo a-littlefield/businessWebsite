@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,gBAAgB,EAAE,wCAAwC;EAC1D,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,SAAS;;AAG3B,aAAa;EACZ,UAAU,EAAE,IAAI",
+"sources": ["../../stylesheets/future.scss"],
+"names": [],
+"file": "future.css"
+}

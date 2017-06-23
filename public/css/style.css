@@ -1,18 +1,22 @@
 #navbar {
-  background: lightgrey; }
+  background: #b3e6ff;
+  opacity: 0.4; }
+
+#navbar:hover {
+  opacity: 1; }
 
 .form-inline {
   justify-content: flex-end; }
 
 .form-inline input {
   margin: 0 5px;
-  background: skyblue;
+  background: #80ffff;
   border-radius: 15px; }
 
 #nav-submit {
   border-radius: 15px;
   padding: 1px 2px;
-  background: skyblue; }
+  background: #80ffff; }
 
 #logDiv {
   display: flex;
@@ -20,7 +24,7 @@
 
 #logout {
   border-radius: 15px;
-  background: skyblue;
+  background: #80ffff;
   padding: 1px 5px; }
 
 #logout a:hover {
@@ -33,8 +37,15 @@
   color: black;
   margin: 0 7px; }
 
+.pages:hover {
+  text-decoration: none;
+  color: #0033cc; }
+
 #container {
   display: flex;
   justify-content: space-between; }
+
+#contact-us {
+  margin-right: 7px; }
 
 /*# sourceMappingURL=style.css.map */
