@@ -1,0 +1,33 @@
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-light bg-faded">
+  <div id="container">
+    <div id="pages">
+      <a class="pages" href="/">Home</a>
+      <a class="pages" href="/tech-gallery">Projects</a> 
+    </div>
+    
+    <% if !session[:email] %>
+      <form class="form-inline" method="POST" action="/tech-gallery">
+        <input name="email" type="text" placeholder="Email">
+        <input name="password" type="password" placeholder="Password">
+        <input id="nav-submit" value="Submit" type="submit">
+      </form>
+    <% else %>
+      <div id="logDiv">
+        <button id="logout">
+          <a href="/logout">Logout</a>
+        </button>
+      </div>
+    <% end %>
+    
+  </div>
+
+</nav>
+
+
+
+<h1 id="title">Welcome to Shepard Robotics</h1>
+
+
+
+
