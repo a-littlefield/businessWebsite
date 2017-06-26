@@ -6,17 +6,30 @@ body{
 
 #title{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 20px;
 	color: skyblue;
 	text-shadow: 3px 3px 3px black;
 
 }
 
 #pull-in{
-	text-align: center;
-	margin-top: 50px;
-	color: skyblue;
-	text-shadow: 1.5px 1.5px 1.5px black;
-	margin-top: 20px;
+	text-align: left;
+	color: rgb(89, 40, 138);
+	text-shadow: 2px 2px 2px white;
+	margin-top: 20%;
+	font-size: 150%;
+	opacity: 1;
+	margin-left: 10%;
+}
 
+#help{
+	text-align: right;
+	color: lightgrey;
+	margin-top: 11%;
+}
+
+#thank-you{
+	text-align: center;
+	color: red;
+	margin-top: 100px;
 }

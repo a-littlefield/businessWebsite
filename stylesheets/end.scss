@@ -1,0 +1,44 @@
+#body{
+	background-color: black;
+}
+
+#mistake, #heres-why{
+	color: white;
+}
+
+#mistake{
+	margin-top: 10px;
+}
+
+.the-end{
+	display: flex;
+	justify-content: space-between;
+}
+
+#heres-why{
+	justify-content: flex-end;
+}
+
+#heres-why b{
+	color: red;
+}
+
+#flex{
+	display: flex;
+}
+
+#move{
+	justify-content: center;
+}
+
+#main-column{
+	text-align: center;
+	background: red;
+	margin-top: 20px;
+}
+
+#nested-column{
+	margin: 20px;
+	line-height: 300%;
+	background: black;
+}

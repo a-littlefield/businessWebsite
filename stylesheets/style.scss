@@ -2,12 +2,15 @@
 	background: rgb(179, 230, 255);
 	opacity: 0.4;
 }
+
 #navbar:hover{
 	opacity: 1;
 }
+
 .form-inline{
 	justify-content: flex-end;
 }
+
 .form-inline input{
 	margin: 0 5px;
 	background: rgb(128, 255, 255);
@@ -53,6 +56,7 @@
 	display: flex;
 	justify-content: space-between
 }
- #contact-us{
+
+#contact-us{
  	margin-right: 7px;
  }
