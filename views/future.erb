@@ -9,7 +9,7 @@
     </div>
     <% if !session[:email] %>
       <form class="form-inline" method="POST" action="/tech-gallery">
-        <div id="contact-us">contact us and sign in: </div>
+        <div id="contact-us">Email us and sign in: </div>
         <input name="email" type="text" placeholder="Email">
         <input name="password" type="password" placeholder="Password">
         <input id="nav-submit" value="Submit" type="submit">
@@ -25,6 +25,21 @@
   </div>
 
 </nav>
+<!-- Info box -->
+<div class="container">
+  <div class="row">
+    <div id='text-box' class="col-sm-12">
+      <div id='justify' class="row">
+        <div id='first-nested-col' class="col-sm-6">
+            <h1 id="future-title">What is in store for the future?</h1>
+            <div class="row">
+              <div id='baby-col' class="col">
+                <p id="leavingEarth">Well to put it bluntly, our end goal is to have robots take over the planet, while humans leave to settle elswhere. We want robots to be self setatining to the point where they can care for our planet, and for the next six hundered years humans will settle other worlds and repopulate amongst them. Once Earth is ready to be settled again humans will return to a cleaner, more suitable home.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>What is in store for the future?</h1>
-<p id="leavingEarth">Well to put it bluntly, our end goal is to have robots take over the planet, while humans leave to settle elswhere. We want robots to be self setatining to the point where they can care for our planet, and for the next two hundered centuries humans will settle other worlds and repopulate amongst them. Once Earth is ready to be settled again humans will return to a cleaner, more suitable home.</p>

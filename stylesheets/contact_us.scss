@@ -3,3 +3,45 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
+
+#contact{
+	text-align: center;
+	margin-top: 20px;
+	color: #A9A9A9;
+	text-shadow: 1px 1px 1px black;
+}
+#phone{
+	display: flex;
+}
+#email{
+	display: flex;
+}
+.email{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#contact-row{
+	height: 500px;
+}
+
+.phone{
+	color: #FF3B3F;
+	text-shadow: 1px 1px 1px #A9A9A9;
+}
+
+.email{
+	color: #FF3B3F;
+	text-shadow: 1px 1px 1px #A9A9A9;
+}
+
+#apply{
+	display: flex;
+	justify-content: center;
+	text-shadow: 1px 1px 1px #A9A9A9;
+}
+
+#apply-link{
+	color: #FF3B3F;
+	text-decoration: none;
+}

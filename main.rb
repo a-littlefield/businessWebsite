@@ -19,6 +19,11 @@ get '/contact-us' do
 	erb :contact_us
 end
 
+get '/end' do
+	@stylesheet = 'end.css'
+	erb :end
+end
+
 post '/tech-gallery' do
 	@email = params[:email]
 	@password = params[:password]

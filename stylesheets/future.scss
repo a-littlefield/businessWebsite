@@ -6,4 +6,31 @@ body{
 
 #leavingEarth{
 	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#future-title{
+	margin: 10px;
+}
+
+#text-box{
+	display: flex;
+}
+
+#justify{
+	justify-content: flex-end;
+}
+
+#first-nested-col{
+	background: rgba(63, 191, 191, 0.34);
+	margin-top: 20px;
+}
+
+.container{
+	margin-right: 12px!important;
+}
+
+#baby-col{
+	background: rgba(63, 191, 191, 0.90);
+	margin: 12px;
 }
